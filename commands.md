@@ -125,10 +125,26 @@ commands.md
 
 Only `main.py` calls `print()` to display the report; `business_rules.py` also appears in the search because `calculate_print_cost` contains the text `print`, and the other matches are files that mention the same word.
 
-## 6. Checking the commit history
+## 6. The commit history
 
 ```bash
 git log --oneline
 ```
 
-The command lists the commits on the local branch. The latest history of the GitHub `main` branch is available at https://github.com/dernik2003/ism3232-midterm/commits/main.
+```text
+2719554 Correct largest job report label
+04aaa52 Update command history references
+ae608c6 updated commands.md - removed a note
+bffd5a1 Updated Readme
+80ccfd1 Clarify terminal search results in the command record
+2ec9945 Simplify README wording and clarify project description
+373b1a1 Add verified terminal record
+d545362 Revise project documentation
+317dfa0 Document project setup and business rules
+454500a Add 30 tests for pricing rules and edge cases
+92934ea Implement print shop pricing and business rules
+5178398 Add print shop report and summary calculations
+a2d1582 Add Python dependencies and test package
+```
+
+There were 13 commits immediately before committing this terminal record.
