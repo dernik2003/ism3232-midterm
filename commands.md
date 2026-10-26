@@ -123,7 +123,7 @@ tests/__init__.py
 commands.md
 ```
 
-Only `main.py` uses `print()` to produce report output. `business_rules.py` contains the word `print` in function names, but it does not print results.
+Only `main.py` calls `print()` to display the report; `business_rules.py` also appears in the search because `calculate_print_cost` contains the text `print`, and the other matches are files that mention the same word.
 
 ## 6. The commit history
 
