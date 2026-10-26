@@ -6,10 +6,9 @@
 
 ## What This Program Does
 
-This Python application calculates and reports invoices for Brightline Print Shop.
-Each print job is priced using the number of copies, volume discounts, and any
-student organization discount or setup fee. The report identifies jobs that need
-a printed proof or overnight press run and summarizes total invoices.
+This program calculates invoices for eight sample print jobs at Brightline Print Shop.
+It applies discounts and setup fees, checks whether each job needs a proof or
+an overnight run, and prints a report with totals and averages.
 
 ## Business Rules
 
@@ -55,5 +54,4 @@ pytest -v
 
 ## AI Use Statement
 
-AI assistance was used to draft and test this project; all submitted work and any
-instructor permission to use AI must be represented accurately.
+AI assistance was used for the program code, tests, and documentation.
