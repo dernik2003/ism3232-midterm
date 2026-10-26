@@ -51,4 +51,4 @@ pytest -v
 
 ## AI Use Statement
 
-I used AI to help with the code, tests, README, and final GitHub check.
+AI helped to keep track of commits on GitHub.

@@ -143,3 +143,5 @@ aa59c7c Add 30 tests for pricing rules and edge cases
 ```
 
 There were 8 commits immediately before committing this terminal record.
+
+Note: This is a saved terminal record from before the GitHub history was rewritten. The commit IDs above are no longer the current `main` branch history. Run `git log --oneline` to view the current commits.
